@@ -1,0 +1,827 @@
+/* CSS Document */
+    {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Capitolium";
+    src: url("../fonts/Capitolium/Capitolium\ RegularRoman.otf");
+    src: url("../fonts/CapitoliumHead/CapitoliumHead 2 W03 Regular.ttf");
+}
+
+@font-face {
+    font-family: "BentonSans";
+    src: url("/fonts/BentonSans-Medium.otf")
+}
+
+@font-face {
+    font-family: "BentonBold";
+    src: url("/fonts/BentonSans-Bold.otf")
+}
+
+@font-face {
+    font-family: "BentonThin";
+    src: url("/fonts/BentonSans-Thin.otf")
+}
+
+@font-face {
+    font-family: "Merriweather";
+    src: url("/fonts/Merriweather.ttf")
+}
+
+ul {
+    padding: 0;
+}
+
+figure {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    font-family: Capitolium;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+hr {
+    width: 110%;
+}
+
+main header ul li {
+    justify-content: space-between;
+}
+
+header nav {
+    overflow-x: auto;
+    overflow-y: hidden;
+    top: 0;
+    height: 50px;
+    width: 110%;
+}
+
+header nav ul {
+    display: flex;
+    font-family: 'Merriweather';
+    max-width: 350%;
+    width: 260%;
+    height: 100%;
+    list-style: none;
+    background-color: white;
+    justify-content: space-between;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration-line: none;
+    margin-left: 1em;
+}
+
+header section img {
+    width: 90%;
+    margin-left: 2em;
+    margin-right: 1em;
+    margin-top: 0.75em;
+}
+
+
+main section article img {
+    width: 60px;
+}
+
+header nav .active {
+    padding-bottom: 8px;
+    border-bottom: 4px solid #000;
+}
+
+h1 {
+    padding-top: 0.3em;
+    border-top: 5px solid #008bc3;
+    font-size: 35px;
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+    width: 92%;
+}
+
+h2 {
+    padding-top: 0.3em;
+    border-top: 5px solid #008bc3;
+    font-size: 35px;
+    margin-bottom: 0.5em;
+    width: 92%;
+}
+
+figcaption {
+    font-size: 18px;
+    width: 92vw;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+}
+
+figure img {
+    margin-left: 1em;
+}
+
+footer {
+    list-style-type: none;
+    width: 92vw;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+footer li {
+    line-height: 1.5;
+}
+
+footer a {
+    text-decoration-line: none;
+    color: black;
+    list-style-type: none;
+    list-style: none;
+    margin-left: 1em;
+}
+
+.bold {
+    font-weight: bold;
+    color: black;
+    line-height: 2;
+    list-style-type: none;
+}
+
+.nieuws {
+    width: 100vw;
+}
+
+.voetbal {
+    width: 92vw;
+}
+
+.politiek {
+    width: 92vw;
+}
+
+figure {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.artikelen {
+    width: 92%;
+}
+
+.hoogte-img {
+    width: 92%;
+}
+
+figcaption {
+    margin-left: 1em;
+}
+
+hr {
+    width: 92%
+}
+
+.nieuws2 {
+    font-family: "CapitoliumHead";
+    width: 94vw;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+p {
+    margin: 0em;
+    font-weight: 900;
+    margin-left: .2em;
+    margin-right: .2em;
+}
+
+.nietbold {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.martelkamer {
+    width: 92%;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+aside nav {
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 50px;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 123vw;
+}
+
+aside nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-family: 'Merriweather';
+    font-size: 15px;
+    height: 100%;
+    background-color: white;
+    color: #727272;
+    padding-top: 0.5em;
+    text-decoration: none;
+    border-top: 1px solid black;
+    width: 100%;
+    margin-left: 0;
+}
+
+article p strong {
+    margin-right: 20px;
+}
+
+main aside nav ul li a {
+    text-decoration-line: none;
+    color: #727272;
+}
+
+article figcaption {
+    margin-left: 0;
+    width: 93vw;
+    font-size: 21px;
+}
+
+article p {
+    display: flex;
+    margin-left: 0;
+    font-size: 12px;
+    padding-bottom: 0.7em;
+    font-weight: 700;
+    padding-top: 0.3em;
+    font-family: "BentonSans-Thin";
+}
+
+section article {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100vw;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+section article p {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+strong {
+    font-family: "BentonSans-Bold";
+}
+
+.bold {
+    font-weight: bold;
+    color: black;
+    line-height: 2;
+    list-style-type: none;
+}
+
+.boldrechts {
+    font-weight: bold;
+    color: black;
+    line-height: 2;
+    list-style: none;
+}
+
+.loader {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border: 4px solid #Fff;
+    animation: loader 1s infinite ease;
+    top: 35em;
+}
+
+.loader-inner {
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 1s infinite ease-in;
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(180deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader-inner {
+    0% {
+        height: 0%;
+    }
+
+    25% {
+        height: 0%;
+    }
+
+    50% {
+        height: 100%;
+    }
+
+    75% {
+        height: 100%;
+    }
+
+    100% {
+        height: 0%;
+    }
+}
+
+.loader-wrapper {
+    width: 116%;
+    height: 340%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+
+@keyframes fadeOut {
+
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loader-wrapper {
+
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+
+@media (min-width: 600px) {
+
+    body {
+        width: 115vw;
+    }
+    main header ul li {
+    justify-content: space-between;
+}
+
+    header nav {
+    overflow-x: auto;
+    overflow-y: hidden;
+    top: 0;
+    height: 50px;
+    width: 110%;
+}
+    hr {
+        width: 103%;
+    }
+
+    header nav ul {
+    display: flex;
+    font-family: 'Merriweather';
+    max-width: 233%;
+    width: 233%;
+    height: 100%;
+    list-style: none;
+    background-color: white;
+    justify-content: space-between;
+}
+
+    header nav ul li a {
+    color: black;
+    text-decoration-line: none;
+    margin-left: 1em;
+}
+    h1 {
+    padding-top: 0.3em;
+    border-top: 5px solid #008bc3;
+    font-size: 35px;
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+    width: 90%;
+}
+    
+    h2 {
+    padding-top: 0.3em;
+    border-top: 5px solid #008bc3;
+    font-size: 35px;
+    margin-bottom: 0.5em;
+    width: 100%;
+}
+    
+    aside nav ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        font-family: 'Merriweather';
+        font-size: 18px;
+        height: 100%;
+        background-color: white;
+        color: black;
+        padding-top: 0.5em;
+        margin-bottom:  -bottom: 0.5em;
+        text-decoration: none;
+        border-top: 1px solid grey;
+        width: 140vw;
+        padding-left: 0;
+    }
+
+    aside nav {
+        overflow-x: auto;
+        overflow-y: hidden;
+        height: 56px;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        width: 140vw;
+    }
+
+    figure figcaption {
+        font-size: 20px;
+    }
+
+    footer {
+        font-size: 20px;
+        font-family: "Benton-Sans";
+    }
+
+    img {
+        max-width: 400px;
+    }
+
+    .nieuws {
+        position: absolute;
+        margin-right: 1em;
+        left: 400px;
+        top: 0;
+        margin: 20px;
+        margin-left: 2.5em;
+        width: 50vw;
+        max-width: 400px;
+        margin-top: 2.5em;
+        margin-right: 1em;
+    }
+
+    .nieuws hr {
+        width: 91%;
+    }
+
+    .netbinnen {
+        left: 0;
+        top: 100px;
+    }
+
+    figure figcaption {
+        margin: 3px;
+    }
+
+    section figure img {
+        width: 75px;
+        margin-right: 10px;
+    }
+
+    footer {
+        display: flex;
+        font-size: 19px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        list-style-type: none;
+        margin-left: 1em;
+    }
+
+    footer ul li a {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10px;
+        list-style: none;
+        margin-right: 10px;
+        font-family: "Benton-Thin";
+        line-height: 2;
+    }
+
+    section article h3 {
+        padding: 0;
+        left: 0;
+        display: flex;
+        flex-direction: row;
+        font-family: BentonSans;
+    }
+
+    section article figcaption {
+        max-width: 400px;
+        margin-bottom: 1em;
+    }
+
+    section article img {
+        max-width: 400px;
+    }
+
+    section article {
+        max-width: 400px;
+    }
+
+    .netbinnen {
+        max-width: 400px;
+        margin-top: 50px;
+    }
+
+    section article {
+        margin-bottom: 0;
+    }
+
+    section article p {
+        font-size: 18px;
+    }
+
+    article figcaption {
+        font-size: 22px;
+    }
+
+    .boldrechts {
+        margin-right: 10px;
+        list-style-type: none;
+        list-style: none;
+    }
+
+    .loader-wrapper {
+        height: 225%;
+        width: 135%;
+    }
+    
+    .loader {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border: 4px solid #Fff;
+    animation: loader 1s infinite ease;
+    top: 40em;
+}
+
+    footer li a {
+        list-style: none;
+        list-style-type: none;
+    }
+
+    ul {
+        list-style: none;
+    }
+    
+    main aside nav ul li a {
+    text-decoration-line: none;
+    color: #727272;
+    margin-bottom: 0.5em;
+}
+    
+    @media (min-width: 1060px) {
+        
+        .netbinnen {
+            margin-top: -25em;
+            max-width: 330px;
+            right: 150px;
+        }
+        
+        body {
+            width: 110vw;
+        }
+        
+        .nieuws {
+            position: absolute;
+            margin-right: 1em;
+            left: 420px;
+            top: 0;
+            margin: 20px;
+            margin-left: 2.5em;
+            width: 50vw;
+            max-width: 400px;
+            margin-top: 2.2em;
+            margin-right: 1em;        
+}
+        article {
+            margin-left: 0;
+        }
+        
+        hr { 
+        width: 124%;
+     }
+        
+        @media (min-width: 1065px) {
+            
+            body {
+            width: 110vw;
+        }
+            
+            .nieuws {
+            position: absolute;
+            margin-right: 1em;
+            left: 420px;
+            top: 0;
+            margin: 20px;
+            margin-left: 2.5em;
+            width: 50vw;
+            max-width: 400px;
+            margin-top: 2.2em;
+            margin-right: 1em;
+            }
+        }
+        
+            .netbinnen {
+            margin-top: -25.62em;
+            max-width: 330px;
+            float: right;
+        }
+        
+        .martelkamer {
+            width: 108vw;
+            margin-left: 1em;
+            margin-right: 1em;
+            height: 300px;
+}
+        }
+        
+        section article {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        width: 100vw;
+        margin-right: 1em;
+        margin-left: 1em;
+}
+    hr {
+        width: 118%;
+    }
+    
+    .loader {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border: 4px solid #Fff;
+    animation: loader 1s infinite ease;
+    top: 35em;
+}
+
+.loader-inner {
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 1s infinite ease-in;
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(180deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader-inner {
+    0% {
+        height: 0%;
+    }
+
+    25% {
+        height: 0%;
+    }
+
+    50% {
+        height: 100%;
+    }
+
+    75% {
+        height: 100%;
+    }
+
+    100% {
+        height: 0%;
+    }
+}
+
+.loader-wrapper {
+    width: 136%;
+    height: 170%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+
+@keyframes fadeOut {
+
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loader-wrapper {
+
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+    
+hr { 
+        width: 124%;
+     }
+    
+ @media (min-width: 1115px) {   
+ 
+     .netbinnen {
+            margin-top: -25.62em;
+            max-width: 390px;
+            float: right;
+        }
+    }
+    
+ @media (min-width: 1190px) {   
+ 
+     .netbinnen {
+            margin-top: -25.62em;
+            float: right;
+            max-width: 310px;
+        }
+     .nieuws {
+            position: absolute;
+            margin-right: 1em;
+            left: 570px;
+            top: 0;
+            margin: 20px;
+            margin-left: 2.5em;
+            width: 50vw;
+            max-width: 400px;
+            margin-top: 2.2em;
+            margin-right: 1em;
+     }
+     
+     hr { 
+        width: 124%;
+     }
+    }
+    
+ @media (min-width: 1200px) {   
+ 
+     .netbinnen {
+            margin-top: -25.62em;
+            float: right;
+        }
+     
+     hr { 
+        width: 124%;
+     }
+     
+    }

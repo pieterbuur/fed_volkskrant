@@ -1,5 +1,5 @@
 /* CSS Document */
-    {
+    * {
     box-sizing: border-box;
 }
 
@@ -95,13 +95,17 @@ header nav .active {
     border-bottom: 4px solid #000;
 }
 
+.active {
+    font-weight: bold;
+}
+
 h1 {
     padding-top: 0.3em;
     border-top: 5px solid #008bc3;
     font-size: 35px;
     margin-bottom: 0.5em;
     margin-left: 0.5em;
-    width: 92%;
+    width: 90%;
 }
 
 h2 {
@@ -109,7 +113,7 @@ h2 {
     border-top: 5px solid #008bc3;
     font-size: 35px;
     margin-bottom: 0.5em;
-    width: 92%;
+    width: 93%;
 }
 
 figcaption {
@@ -173,19 +177,20 @@ figure {
 }
 
 .artikelen {
-    width: 92%;
+    width: 93%;
 }
 
 .hoogte-img {
-    width: 92%;
+    width: 93%;
 }
 
 figcaption {
     margin-left: 1em;
+    max-width: 82%
 }
 
 hr {
-    width: 92%
+    width: 94%
 }
 
 .nieuws2 {
@@ -388,7 +393,7 @@ strong {
     animation-fill-mode: forwards;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
 
     body {
         width: 115vw;
@@ -430,7 +435,7 @@ strong {
     font-size: 35px;
     margin-bottom: 0.5em;
     margin-left: 0.5em;
-    width: 90%;
+    width: 95%;
 }
     
     h2 {
@@ -454,7 +459,7 @@ strong {
         margin-bottom:  -bottom: 0.5em;
         text-decoration: none;
         border-top: 1px solid grey;
-        width: 140vw;
+        width: 100vw;
         padding-left: 0;
     }
 

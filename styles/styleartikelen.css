@@ -81,6 +81,19 @@ p {
     font-size: 1.5em;
 }
 
+hr {
+    width: 95%;
+}
+
+.footerscheiding {
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    margin-top: 2em;
+    opacity: 0.2;
+    
+}
+
 main img {
     margin-right: 1em;
     margin-left: 1em;
@@ -121,7 +134,7 @@ aside nav ul {
     list-style: none;
     justify-content: space-evenly;
     font-family: 'Merriweather';
-    font-size: 15px;
+    font-size: 18px;
     height: 100%;
     background-color: white;
     color: #727272;
@@ -130,6 +143,7 @@ aside nav ul {
     border-top: 1px solid black;
     width: 100vw;
     margin-left: 0;
+    margin-bottom: 0.5em;
 }
 
 main aside nav ul li a {

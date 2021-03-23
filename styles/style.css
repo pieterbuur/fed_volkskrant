@@ -46,7 +46,7 @@ body {
 }
 
 hr {
-    width: 110%;
+    width: 100vw;
 }
 
 main header ul li {
@@ -58,7 +58,7 @@ header nav {
     overflow-y: hidden;
     top: 0;
     height: 50px;
-    width: 110%;
+    width: 100vw;
 }
 
 header nav ul {
@@ -79,12 +79,11 @@ header nav ul li a {
 }
 
 header section img {
-    width: 90%;
+    width: 94%;
     margin-left: 2em;
     margin-right: 1em;
     margin-top: 0.75em;
 }
-
 
 main section article img {
     width: 60px;
@@ -102,22 +101,23 @@ header nav .active {
 h1 {
     padding-top: 0.3em;
     border-top: 5px solid #008bc3;
-    font-size: 35px;
+    font-size: 2em;
     margin-bottom: 0.5em;
     margin-left: 0.5em;
-    width: 90%;
+    width: 95%;
 }
 
 h2 {
     padding-top: 0.3em;
     border-top: 5px solid #008bc3;
-    font-size: 35px;
+    font-size: 2em;
     margin-bottom: 0.5em;
-    width: 93%;
+    width: 95%;
+    margin-left: 0.5em;
 }
 
-figcaption {
-    font-size: 18px;
+.netbinnen figcaption {
+    font-size: 1.3em;
     width: 92vw;
 }
 
@@ -125,7 +125,7 @@ p {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 0.5em;
-    font-size: 1.5em;
+    font-size: 1.1em;
 }
 
 figure img {
@@ -170,34 +170,29 @@ footer a {
     width: 92vw;
 }
 
-figure {
+.nieuws figure {
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
 
 .artikelen {
-    width: 93%;
+    width: 95%;
 }
 
 .hoogte-img {
-    width: 93%;
+    width: 95%;
 }
 
 figcaption {
-    margin-left: 1em;
-    max-width: 82%
+    margin-left: 17px;
+    max-width: 82%;
+    font-size: 1.3em;
 }
 
 hr {
-    width: 94%
-}
-
-.nieuws2 {
-    font-family: "CapitoliumHead";
-    width: 94vw;
-    font-size: 22px;
-    margin-bottom: 30px;
+    width: 94%;
+    margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 p {
@@ -213,7 +208,7 @@ p {
 }
 
 .martelkamer {
-    width: 92%;
+    width: 95%;
     margin-left: 1em;
     margin-right: 1em;
 }
@@ -225,7 +220,7 @@ aside nav {
     align-items: center;
     position: fixed;
     bottom: 0;
-    width: 123vw;
+    width: 100vw;
 }
 
 aside nav ul {
@@ -244,8 +239,9 @@ aside nav ul {
     margin-left: 0;
 }
 
-article p strong {
+figure p strong {
     margin-right: 20px;
+    margin-left: 17px;
 }
 
 main aside nav ul li a {
@@ -256,13 +252,13 @@ main aside nav ul li a {
 article figcaption {
     margin-left: 0;
     width: 93vw;
-    font-size: 21px;
+    font-size: 1.3em;
 }
 
-article p {
+figure p {
     display: flex;
     margin-left: 0;
-    font-size: 12px;
+    font-size: 1em;
     padding-bottom: 0.7em;
     font-weight: 700;
     padding-top: 0.3em;
@@ -277,9 +273,10 @@ section article {
     margin-left: 1em;
 }
 
-section article p {
-    margin-top: 0;
-    font-size: 20px;
+.netbinnen p {
+    font-size: 1.3em;
+    margin-top: 0.3em;
+    text-transform: uppercase;
 }
 
 strong {
@@ -395,9 +392,6 @@ strong {
 
 @media (min-width: 700px) {
 
-    body {
-        width: 115vw;
-    }
     main header ul li {
     justify-content: space-between;
 }
@@ -407,10 +401,10 @@ strong {
     overflow-y: hidden;
     top: 0;
     height: 50px;
-    width: 110%;
+    width: 99%;
 }
     hr {
-        width: 103%;
+        width: 100%;
     }
 
     header nav ul {
@@ -443,7 +437,7 @@ strong {
     border-top: 5px solid #008bc3;
     font-size: 35px;
     margin-bottom: 0.5em;
-    width: 100%;
+    width: 92%;
 }
     
     aside nav ul {
@@ -473,8 +467,8 @@ strong {
         width: 140vw;
     }
 
-    figure figcaption {
-        font-size: 20px;
+    .nieuws figcaption {
+        font-size: 1.3em;
     }
 
     footer {
@@ -506,10 +500,6 @@ strong {
     .netbinnen {
         left: 0;
         top: 100px;
-    }
-
-    figure figcaption {
-        margin: 3px;
     }
 
     section figure img {
@@ -610,16 +600,12 @@ strong {
     margin-bottom: 0.5em;
 }
     
-    @media (min-width: 1060px) {
+    @media (min-width: 1200px) {
         
         .netbinnen {
-            margin-top: -25em;
-            max-width: 330px;
-            right: 150px;
-        }
-        
-        body {
-            width: 110vw;
+            margin-top: -25,46em;
+            max-width: 130px;
+           
         }
         
         .nieuws {
@@ -639,14 +625,10 @@ strong {
         }
         
         hr { 
-        width: 124%;
+        width: 100%;
      }
         
         @media (min-width: 1065px) {
-            
-            body {
-            width: 110vw;
-        }
             
             .nieuws {
             position: absolute;
@@ -663,17 +645,17 @@ strong {
         }
         
             .netbinnen {
-            margin-top: -25.62em;
+            margin-top: -25.45em;
             max-width: 330px;
             float: right;
         }
         
-        .martelkamer {
-            width: 108vw;
+            .martelkamer {
+            width: 100vw;
             margin-left: 1em;
             margin-right: 1em;
             height: 300px;
-}
+        }
         }
         
         section article {
@@ -684,7 +666,7 @@ strong {
         margin-left: 1em;
 }
     hr {
-        width: 118%;
+        width: 100%;
     }
     
     .loader {
@@ -781,52 +763,37 @@ strong {
 }
     
 hr { 
-        width: 124%;
+        width: 91%;
      }
     
- @media (min-width: 1115px) {   
- 
-     .netbinnen {
-            margin-top: -25.62em;
-            max-width: 390px;
-            float: right;
-        }
-    }
     
- @media (min-width: 1190px) {   
- 
-     .netbinnen {
-            margin-top: -25.62em;
-            float: right;
-            max-width: 310px;
+    @media (min-width: 1320px) {
+        
+        .netbinnen {
+            margin-top: -25,46em;
+            width: 300px;
+            margin-right: 1em;
+           
         }
-     .nieuws {
+        
+        .nieuws {
             position: absolute;
             margin-right: 1em;
-            left: 570px;
+            left: 530px;
             top: 0;
             margin: 20px;
             margin-left: 2.5em;
             width: 50vw;
             max-width: 400px;
             margin-top: 2.2em;
-            margin-right: 1em;
-     }
-     
-     hr { 
-        width: 124%;
-     }
-    }
-    
- @media (min-width: 1200px) {   
- 
-     .netbinnen {
-            margin-top: -25.62em;
-            float: right;
+            margin-right: 1em;        
+}
+        article {
+            margin-left: 0;
         }
-     
-     hr { 
-        width: 124%;
+        
+        hr { 
+        width: 91%;
      }
-     
-    }
+
+    

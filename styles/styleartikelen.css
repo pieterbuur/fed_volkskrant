@@ -152,6 +152,7 @@ main aside nav ul li a {
 }
 
 .active {
+    color: black;
     font-weight: bold;
 }
 
@@ -189,6 +190,18 @@ figure ul li {
     list-style-type: none;
     line-height: 2;
 }
+
+main aside nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main aside nav ul li a:active {
+    color: crimson;
+}
+
+main aside nav ul li a:focus {
+    background: lightblue;
+    padding: .5em; }
 
 footer {
     list-style-type: none;

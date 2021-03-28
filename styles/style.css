@@ -95,6 +95,7 @@ header nav .active {
 }
 
 .active {
+    color: black;
     font-weight: bold;
 }
 
@@ -246,6 +247,20 @@ figure p strong {
 main aside nav ul li a {
     text-decoration-line: none;
     color: #727272;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:active {
+    color: black;
+}
+
+a:focus {
+    background: lightblue;
+    padding: .5em;
 }
 
 article figcaption {

@@ -4,29 +4,28 @@
 }
 
 @font-face {
-    font-family: "Capitolium";
-    src: url("../fonts/Capitolium/Capitolium\ RegularRoman.otf");
-    src: url("../fonts/CapitoliumHead/CapitoliumHead 2 W03 Regular.ttf");
+    font-family: "CapitoliumHead";
+    src: url("../fonts/CapitoliumHead.ttf");
 }
 
 @font-face {
     font-family: "BentonSans";
-    src: url("/fonts/BentonSans-Medium.otf")
+    src: url("../fonts/BentonSans-Medium.otf")
 }
 
 @font-face {
     font-family: "BentonBold";
-    src: url("/fonts/BentonSans-Bold.otf")
+    src: url("../fonts/BentonSans-Bold.otf")
 }
 
 @font-face {
     font-family: "BentonThin";
-    src: url("/fonts/BentonSans-Thin.otf")
+    src: url("../fonts/BentonSans-Thin.otf")
 }
 
 @font-face {
     font-family: "Merriweather";
-    src: url("/fonts/Merriweather.ttf")
+    src: url("../fonts/Merriweather.ttf")
 }
 
 ul {
